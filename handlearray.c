@@ -72,7 +72,7 @@ void reva(char *ary, int len)
 	for (i = 0; i < (len / 2); i++)
 	{
 		tmp = ary[i];
-		ry[i] = ary[(len - 1) - i];
+		ary[i] = ary[(len - 1) - i];
 		ary[(len - 1) - i] = tmp;
 	}
 }
